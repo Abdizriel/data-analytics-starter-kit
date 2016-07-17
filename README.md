@@ -16,4 +16,4 @@ Everything is set up on top of [Docker](https://www.docker.com/ "Docker") contai
 
 ## Example AWS Diagram
 
-[AWS Diagram](https://github.com/Abdizriel/data-analytics-starter-kit/blob/master/diagram.png)
+![AWS Diagram](https://github.com/Abdizriel/data-analytics-starter-kit/blob/master/diagram.png)
