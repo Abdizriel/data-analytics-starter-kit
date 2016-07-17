@@ -1,3 +1,11 @@
+# Reverse Proxy
+nginx:
+  build: ./nginx
+  ports:
+    - "80:80"
+  links:
+    - kibana
+
 # ElasticSearch Service
 elasticsearch:
   build: ./elasticsearch
@@ -20,3 +28,10 @@ logstash:
     - "5000:5000"
   links:
     - elasticsearch
+    - redis
+
+# Redis broker
+redis:
+  build: ./redis
+  ports:
+    - "6379:6379"
